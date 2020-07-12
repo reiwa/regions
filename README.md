@@ -10,8 +10,8 @@ $ yarn add @reiwa/regions
 
 https://firebase.google.com/docs/functions/locations?hl=en#selecting-regions_firestore-storage
 
-```
-import { ASIA_NORTHEAST1 } from '@reiwa/regions
+```ts
+import { ASIA_NORTHEAST1 } from '@reiwa/regions'
 
 module.exports = region(ASIA_NORTHEAST1).onRun(handler)
 ```
