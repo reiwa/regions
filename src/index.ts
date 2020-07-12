@@ -1,0 +1,8 @@
+export const ASIA_EAST2 = 'asia-east2'
+export const ASIA_NORTHEAST1 = 'asia-northeast1'
+export const EUROPE_WEST1 = 'europe-west1'
+export const EUROPE_WEST2 = 'europe-west2'
+export const EUROPE_WEST3 = 'europe-west3'
+export const US_CENTRAL = 'us-central1'
+export const US_EAST1 = 'us-east1'
+export const US_EAST4 = 'us-east4'
