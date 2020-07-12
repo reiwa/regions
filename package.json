@@ -1,6 +1,6 @@
 {
   "name": "@reiwa/regions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/reiwa/regions",
@@ -9,8 +9,8 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib --extensions .ts",
-    "build:watch": "babel src --out-dir lib --extensions .ts -w",
-    "prepublish": "yarn build"
+    "build:tsc": "tsc",
+    "build:watch": "babel src --out-dir lib --extensions .ts -w"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
